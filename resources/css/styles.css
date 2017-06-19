@@ -9,7 +9,7 @@
 .header{
   display: flex;
   position: fixed;
-  border: 1px solid seashell;
+  border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
   flex-wrap: wrap;
@@ -23,12 +23,6 @@ nav{
 }
 
 nav span{
-  display: inline-block;
-  align-items: center;
   text-decoration:underline;
   color: seashell;
-}
-
-.main{
-
 }
