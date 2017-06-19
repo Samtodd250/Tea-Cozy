@@ -1,28 +1,46 @@
-*{
+body{
+  background-color: black;
+  margin: 0;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  background-color: black;
-  opacity: 1;
 }
 
-.header{
+/* HEADER ---------------------------*/
+
+header{
   display: flex;
   position: fixed;
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
-  flex-wrap: wrap;
-  z-index: 1;
+  z-index: 20;
   background-color: black;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+#logo img{
+  height: 50px;
 }
 
 nav{
   display: flex;
+  justify-content: flex-end;
   align-items: center;
+  flex-grow: 1;
 }
 
 nav span{
-  text-decoration:underline;
+  padding: 15px;
+}
+
+a{
   color: seashell;
+  text-decoration: underline;
 }
