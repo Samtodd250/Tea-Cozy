@@ -7,7 +7,7 @@ body{
   opacity: 0.9;
 }
 
-/* HEADER */
+/* Header */
 
 header{
   display: flex;
@@ -46,7 +46,7 @@ a{
   text-decoration: underline;
 }
 
-/* OUR MISSION */
+/* Oue mission */
 
 #mission-background{
   background-image: url("../images/img-mission-background.jpg");
@@ -60,7 +60,7 @@ a{
   margin-right: auto;
 }
 
-h2, h4 {
+h2, h4{
   background-color: black;
   z-index: 10;
   display: block;
@@ -68,6 +68,9 @@ h2, h4 {
   text-align: center;
   margin: 0;
   padding: 10px;
+}
+#loctit{
+  font-size: 30px;
 }
 
 /* Tea of the month */
@@ -100,4 +103,48 @@ h2, h4 {
 
 p{
   text-align: center;
+}
+
+/* locations */
+
+.locations{
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: auto;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.box{
+  background-color: black;
+  width: 300px;
+  padding-bottom: 10px;
+  margin: 20px;
+}
+
+.parapad{
+  padding: 10px;
+  opacity: 1;
+}
+
+/* Footer */
+
+.footer{
+  text-align: center;
+}
+
+.copyright{
+  padding-left: 20px;
 }
