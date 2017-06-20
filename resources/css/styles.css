@@ -4,6 +4,7 @@ body{
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
+  opacity: 0.9;
 }
 
 /* HEADER */
@@ -67,4 +68,36 @@ h2, h4 {
   text-align: center;
   margin: 0;
   padding: 10px;
+}
+
+/* Tea of the month */
+
+#month{
+  padding-top: 50px;
+}
+
+.optionsize{
+  height: 200px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+#central{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  padding-top: 20px;
+}
+
+p{
+  text-align: center;
 }
